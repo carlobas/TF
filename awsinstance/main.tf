@@ -13,7 +13,7 @@ variable "myTag" {
 }
 
 resource "aws_instance" "machine1" {
-    ami           = "ami-0a63cd87767e10ed4"
+    ami           = "ami-4a794b57"
     instance_type = "t2.micro"
     tags = {
       "type" = var.myTag
@@ -21,7 +21,7 @@ resource "aws_instance" "machine1" {
 }
 
 resource "aws_instance" "machine2" {
-    ami           = "ami-0a63cd87767e10ed4"
+    ami           = "ami-4a794b57"
     instance_type = "t2.micro"
     tags = {
       "type" = var.myTag
